@@ -1,5 +1,88 @@
 .caja{
 	width: 100%;
 	height: 300px;
-	background-color: #F8F6F6;
+	background-color: #9EC130;
 }
+
+.navbar-default {
+	background-color: #9EC130;
+	border-color: transparent;
+    width: 100%;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #113760;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #113760;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li.active > a {
+	background-color: #BBD371;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li.active > a:hover {
+	background-color: #BBD371;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #BBD371;
+	color: #ffffff;
+}
+
+
+// ------------
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle{
+	border-color: #9EC130;
+}
+
+.navbar-default .navbar-toggle{
+	border-color: #9EC130;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src="" class="img-responsive" alt="Imagen responsive">

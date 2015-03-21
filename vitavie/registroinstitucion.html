@@ -14,8 +14,7 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-             <i class="glyphicon glyphicon-plus" style="color:#fff"></i>
-
+        <i class="glyphicon glyphicon-plus" style="color:#fff"></i>
           </button>
           <a class="navbar-brand" href="index.html">VitaVie</a>
         </div>
@@ -23,7 +22,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Publicaciones</a></li>
-            <li><a href="registroinstitucion.html">Registro institución</a></li>
+            <li class="active"><a href="registroinstitucion.html">Registro institución</a></li>
             <li><a href="registroadministrador.html">Registro administrador</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -38,34 +37,62 @@
     <br>
     
 <div class="container">
-    <h2 align="center">Registro de usuario:</h2><br> 
+    <h2 align="center">Registro de institucion:</h2><br>
     <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-xs-12 col-sm-9">                
+        <div class="col-xs-12 col-sm-6">                 
             <form class="form-horizontal" method="post" action="" enctype="application/x-www-form-urlencoded">
 
                 <div class="form-group">
-                    <label for="" class="col-sm-2 control-label">Nombre:</label>
-                    <div class="col-sm-10">
+                    <label for="" class="col-sm-4 control-label">No. Registro:</label>
+                    <div class="col-sm-8">
+                        <input type="text" placeholder="" class="form-control" name="noRegistro" id="noRegistro" value="" required/>          
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="" class="col-sm-4 control-label">Nombre:</label>
+                    <div class="col-sm-8">
                         <input type="text" placeholder="" class="form-control" name="nombre" id="nombre" value="" required/>          
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="" class="col-sm-2 control-label">Correo:</label>
-                    <div class="col-sm-10">
-                        <input type="email" placeholder="" class="form-control" name="correo" id="correo" value="" required/>          
+                    <label for="" class="col-sm-4 control-label">Ubicación:</label>
+                    <div class="col-sm-8">
+                        <input type="text" placeholder="" class="form-control" name="ubicacion" id="ubicacion" value="" required/>          
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="" class="col-sm-2 control-label">Contraseña:</label>
-                    <div class="col-sm-10">
+                    <label for="" class="col-sm-4 control-label">Correo:</label>
+                    <div class="col-sm-8">
+                        <input type="email" placeholder="" class="form-control" name="correo" id="correo" value="" required/>        
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="" class="col-sm-4 control-label">Contraseña:</label>
+                    <div class="col-sm-8">
                         <input type="password" placeholder="" class="form-control" name="clave" id="clave" value="" required/>          
                     </div>
                 </div>
 
+                <div class="form-group">
+                    <label for="" class="col-sm-4 control-label">Id. Administrador:</label>
+                    <div class="col-sm-8">
+                        <input type="text" placeholder="" class="form-control" name="idAdmin" id="idAdmin" value="" required/>          
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="" class="col-sm-4 control-label">Id. Categoria:</label>
+                    <div class="col-sm-8">
+                        <input type="text" placeholder="" class="form-control" name="idCategoria" id="idCategoria" value="" required/>          
+                    </div>
+                </div>
+
             <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">    
+                <div class="col-sm-offset-4 col-sm-8">    
                     <div class="btn-group">
                         <a href="index.html" role="button" class="btn btn-warning"><span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span> Regresar</a> 
                         <button type="submit" role="button" class="btn btn-success"><span class="glyphicon glyphicon-floppy-open" aria-hidden="true"></span> Registrar</button>
@@ -74,6 +101,10 @@
             </div>
             </form>
         </div>
+        <div class="col-xs-12 col-sm-6">
+            
+        </div>
+
     </div>
 </div>
 
