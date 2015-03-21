@@ -1,7 +1,6 @@
-.caja{
-	width: 100%;
-	height: 625px;
+.jumbotron{
 	background-color: #9EC130;
+	height: 660px;
 }
 
 .navbar-default {
@@ -15,7 +14,7 @@
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #113760;
+    color: white;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -44,7 +43,7 @@
 }
 
 
-// ------------
+/* Menu  */
 
 .navbar-toggle {
     position: relative;
@@ -66,22 +65,3 @@
 .navbar-default .navbar-toggle{
 	border-color: #9EC130;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img src="" class="img-responsive" alt="Imagen responsive">

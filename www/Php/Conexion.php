@@ -1,6 +1,7 @@
 <?php
 //Se conecta a la base de datos
 $link = mysql_connect('localhost', 'root', '');
+mysql_set_charset("utf8",$link);
 if (!$link) {
     die('No conectado : ' . mysql_error());
 }
@@ -8,5 +9,7 @@ if (!$link) {
 if (! mysql_select_db('VitaduVie') ) {
     die ('Error al conectar : ' . mysql_error());
 }
+
+
 
 ?>
